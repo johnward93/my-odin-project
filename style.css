@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
     align-self: center;
     font-family: "Roboto";
-    max-width: 1440px;
 }
 
 .container1 {
@@ -51,7 +51,9 @@ a {
     font-weight: 900;
 }
 
-.text p, a, button {
+.text p,
+a,
+button {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -72,4 +74,29 @@ button {
     font-weight: 700;
     padding: 5px 30px;
     border-radius: 8px;
+}
+
+.title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info {
+    max-width: 150px;
+}
+.square {
+    border: 5px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
 }
